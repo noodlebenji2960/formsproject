@@ -1,0 +1,155 @@
+@font-face {
+    font-family: Norse-Bold;
+    src: url(/fonts/Norse-Bold.otf);
+  }
+
+:root{
+    font-family: sans-serif;
+}
+
+input[type=password], input[type=passwordconfirm]:invalid{
+    border: 1px solid red;
+    border-radius: 4px;
+}
+
+#container{
+display: flex;
+}
+
+#containerLeft{
+background-image: url(/imgs/leafy.avif);
+background-size: cover;
+background-repeat: no-repeat;
+height: 100vh;
+width: 50%;
+max-width: 800px;
+color: white;
+margin: 0px;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+
+#leftBanner{
+display: flex;
+background-color: hsla(0, 0%, 0%, 50%);
+height: 145px;
+justify-content: center;
+font-family: Norse-Bold;
+font-size: 100px;
+align-items: center;
+position: relative;
+top: 20%;
+padding: 20px 100px;
+}
+
+#leftBanner img{
+height: 150px;
+}
+
+.imgcredit{
+position: relative;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+text-align: center;
+}
+
+.imgcredit a{
+color: white;
+}
+
+.imgcredit a:hover{
+color: black;
+background-color: white;
+text-decoration: none;
+}
+
+#logo img{
+height: 200px;
+}
+
+h1{
+background-color: white;
+margin: 0px;
+padding: 20px 50px 0px 50px;
+font-size: 1.3rem;
+}
+
+#containerRight{
+display: flex;
+width: 100%;
+flex-direction: column;
+justify-content: center;
+background-color: #F9FAFB;
+}
+
+#hero{
+width: 100%;
+text-align: left;
+font-weight: bold;
+}
+
+#hero p{
+width: 750px;
+padding: 50px;
+font-size: 1.5rem;
+}
+
+table{
+max-width: 600px;
+font-size: 0.8rem;
+}
+
+#form{
+width: 100%;
+text-align: left;
+box-shadow: 0 15px 5px -10px lightgrey;
+background-color: white;
+display: flex;
+align-items: center;
+justify-content: left;
+padding: 20px 0px 20px 0px;
+}
+
+label {
+display: inline-block;
+width: 200px;
+margin-bottom: 5px;
+line-height: 1rem;
+letter-spacing: 0.2rem;
+font-size: 0.7rem;
+margin-left: 50px;
+}
+
+input{
+width: 300px;
+height: 1.5rem;
+border: 1px solid #E5E7EB;
+font-size: 1rem;
+margin-left: 50px;
+margin-bottom: 15px;
+}
+
+input:focus{
+border: 1px solid blue;
+}
+
+#buttonContainer{
+text-align: left;
+margin: 50px;
+}
+
+#buttonContainer a{
+color: green;
+text-decoration: none;
+}
+
+.button{
+display: flex;
+background-color: #596D48;
+width: 200px;
+height: 50px;
+border-radius: 10px;
+align-items: center;
+justify-content: center;
+color: white;
+}
