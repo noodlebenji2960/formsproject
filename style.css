@@ -22,7 +22,7 @@ input:focus {
 }
 
 #containerLeft{
-    background-image: url(/imgs/leafy.avif);
+    background-image: url(/imgs/leafy.png);
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
