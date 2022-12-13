@@ -1,6 +1,6 @@
 @font-face {
     font-family: Norse-Bold;
-    src: url(Norse-Bold.otf);
+    src: url(./Norse-Bold.otf);
   }
 
 :root{
@@ -22,7 +22,7 @@ input:focus {
 }
 
 #containerLeft{
-    background-image: url(leafy.png);
+    background-image: url(./leafy.png);
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
